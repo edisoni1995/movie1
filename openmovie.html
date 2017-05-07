@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/favicon.ico">
+
+    <title>Starter Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+	<nav class="navbar navbar-default">
+	  <div class="container">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#"><img class="img-responsive" src="img/icon.png" alt=""></a>
+	     
+	      
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	    <form action="search.html" class="navbar-form navbar-right">
+	        <div class="form-group" style="display:inline;">
+	            <input type="text" class="form-control" placeholder="Movie Search...">
+	            <input class="background-color" type="submit" value="Search">
+	        </div>
+
+		    <div class="dropdown suggest">
+		      	<ul class="border-color">
+		      		<li>
+		      			<a style="width: 70px; background-image: url(img/img-1.jpg)" alt=""></a>
+						
+						<div class="info">
+							<div class="title">Edison 2017</div>
+							<div class="minutes">45 min</div>
+							<div class="genre text-color">Drame , Romance , Comedy</div>
+							
+						</div>
+		      		</li>
+		      		<li>
+		      			<a style="width: 70px; background-image: url(img/img-1.jpg)" alt=""></a>
+						
+						<div class="info">
+							<div class="title">Edison 2017</div>
+							<div class="minutes">45 min</div>
+							<div class="genre">Drame , Romance , Comedy</div>
+							
+						</div>
+		      		</li>
+		      		<li>
+		      			<a style="width: 70px; background-image: url(img/img-1.jpg)" alt=""></a>
+						
+						<div class="info">
+							<div class="title">Edison 2017</div>
+							<div class="minutes">45 min</div>
+							<div class="genre">Drame , Romance , Comedy</div>
+							
+						</div>
+		      		</li>
+		      		<button class="background-color">View All</button>
+		      	</ul>
+		    </div>
+
+	    </form>
+	      <ul class="nav navbar-nav navbar-right">
+	        <li class="active"><a href="#" class="text-hover-color">Home</a></li>
+	        <li><a href="#" class="text-hover-color">Genre</a></li>
+	        <li><a href="#" class="text-hover-color">Country</a></li>
+	        <li><a href="#" class="text-hover-color">Top IMDb</a></li>
+	        <li><a href="#" class="text-hover-color">Tv series</a></li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+	
+	<div class="container-fluid suggestion-header">
+		<div class="suggestion-title container">
+			<div class="row">
+				<ol class="breadcrumb">
+				  <li><a href="#">Home</a></li>
+				  <li><a href="#">Movies</a></li>
+				  <li class="active">John Wick 2</li>
+				</ol>
+			</div>
+			
+        </div>
+	</div>		
+
+    <div class="container player">
+    	<div class="m-20"></div>
+		<div class="row player-container" style="background-image: url(https://img.123clouds.ru/2017/02/23/cover/382911826daad5611c8d54f68f11b297-fist-fight-.jpg)">
+			
+		</div>
+		<div class="row movie-info">
+			<div class="col-md-12">
+				<div class="col-md-12 servers">
+					<ul>
+						<li><i class="fa fa-server text-color" aria-hidden="true"></i>Server 1 <a class="active background-color" href="#"><i class="fa fa-play" aria-hidden="true"></i>Cam</a></li>
+						<li><i class="fa fa-server text-color" aria-hidden="true"></i>Server 2 <a href="#"><i class="fa fa-play" aria-hidden="true"></i>Cam</a></li>
+						<li><i class="fa fa-server text-color" aria-hidden="true"></i>Server 3 <a href="#"><i class="fa fa-play" aria-hidden="true"></i>Cam</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2 poster">
+					<img class="img-responsive" src="https://img.123clouds.ru/2017/02/23/poster/382911826daad5611c8d54f68f11b297-fist-fight-.jpg" alt="">
+				</div>
+				<div class="col-md-9">
+					<div class="header"><h3 class="title">Fist Fight</h3><button class="btn trailer background-color border-color">Trailer</button></div>
+					<div class="description">When a mild-mannered high-school teacher gets the other fired, he is challenged to an after-school fight. As news of the showdown spreads like wildfire, he desperately seeks any way out of his date with certain doom.</div>
+					
+					<div class="col-md-6">
+                        <p>
+	                        <strong>Genre: </strong>
+	                        <a href="#" title="Comedy">Comedy</a> 
+                        </p>
+                        <p>
+	                        <strong>Actor: </strong>
+	                        <a href="#" >Ice Cube</a>, <a target="_blank" href="#">Charlie Day</a>, <a  href="#" >Tracy Morgan</a>                    
+                        </p>
+                        <p>
+	                        <strong>Director: </strong>
+	                        <a href="#" title="Richie Keen">Richie Keen</a>                    
+                        </p>
+                        <p>
+	                        <strong>Country: </strong>
+	                        <a href="#" >United States</a>                    
+                        </p>
+                           
+					</div>
+
+					<div class="col-md-6">
+                        <p><strong>Duration:</strong> 91 min</p>
+
+		                <p><strong>Quality:</strong> <span class="quality">CAM</span></p>
+
+		                <p><strong>Release:</strong> 2017</p>
+
+		                <p><strong>IMDb:</strong> <i class="fa fa-star"></i> 5.9 </p>
+				           
+					</div>
+				</div>
+			</div>
+		</div>
+
+    </div><!-- /.container -->
+	<div class="container suggestion">
+		<div class="suggestion-title">
+            <span class="pull-left">You May Also Like</span>
+        </div>
+	</div>
+		<div class="container-fluid movie-suggestion">
+    	<div class="row">
+    		<div class="movies grid">
+		    	<div class="col-md-2 col-xs-12">
+		    			<div class="hover">
+							<span class="quality">CAM</span>
+							<div class="play-icon play-video">
+								<i class="fa  fa-play-circle"></i>
+								<div class="background"></div>
+							</div>
+							<img  src="img/img-1.jpg" alt="img23"/>
+							<div class="info">
+								<div class="main-title">John Wick 2</div>
+								<div class="hidden-info">
+									<div class="imdb"><i class="fa fa-star" aria-hidden="true"></i> 7.4</div>
+									<div class="year">2017</div>
+									<div class="genre">Action , Comedy, Triller</div>
+
+								</div>
+								<a href="movie.html">View more</a>
+							</div>			
+						</div>
+		    	</div>
+		    	<div class="col-md-2 col-xs-12">
+		    			<div class="hover">
+							<span class="quality">CAM</span>
+							<div class="play-icon play-video">
+								<i class="fa  fa-play-circle"></i>
+								<div class="background"></div>
+							</div>
+							<img  src="https://img.123clouds.ru/2017/03/08/poster/c716ce93da1913180b2c68723b90ae52-logan.jpg" alt="img23"/>
+							<div class="info">
+								<div class="main-title">John Wick 2</div>
+								<div class="hidden-info">
+									<div class="imdb"><i class="fa fa-star" aria-hidden="true"></i> 7.4</div>
+									<div class="year">2017</div>
+									<div class="genre">Action , Comedy, Triller</div>
+
+								</div>
+								<a href="movie.html">View more</a>
+							</div>			
+						</div>
+		    	</div>
+		    	<div class="col-md-2 col-xs-12">
+		    			<div class="hover">
+							<span class="quality">CAM</span>
+							<div class="play-icon play-video">
+								<i class="fa  fa-play-circle"></i>
+								<div class="background"></div>
+							</div>
+							<img  src="https://img.123clouds.ru/2017/03/07/poster/0041d1d44051b1594a172773b656e0fe-star-raiders-the-adventures-of-saber-raine.jpg" alt="img23"/>
+							<div class="info">
+								<div class="main-title">John Wick 2</div>
+								<div class="hidden-info">
+									<div class="imdb"><i class="fa fa-star" aria-hidden="true"></i> 7.4</div>
+									<div class="year">2017</div>
+									<div class="genre">Action , Comedy, Triller</div>
+
+								</div>
+								<a href="movie.html">View more</a>
+							</div>			
+						</div>
+		    	</div>
+		    	<div class="col-md-2 col-xs-12">
+		    			<div class="hover">
+							<span class="quality">CAM</span>
+							<div class="play-icon play-video">
+								<i class="fa  fa-play-circle"></i>
+								<div class="background"></div>
+							</div>
+							<img  src="https://img.123clouds.ru/2017/03/07/poster/f68360d4f75d134007a75cdc09324ea7-new-life.jpg" alt="img23"/>
+							<div class="info">
+								<div class="main-title">John Wick 2</div>
+								<div class="hidden-info">
+									<div class="imdb"><i class="fa fa-star" aria-hidden="true"></i> 7.4</div>
+									<div class="year">2017</div>
+									<div class="genre">Action , Comedy, Triller</div>
+
+								</div>
+								<a href="movie.html">View more</a>
+							</div>			
+						</div>
+		    	</div>
+		    	<div class="col-md-2 col-xs-12">
+		    			<div class="hover">
+							<span class="quality">CAM</span>
+							<div class="play-icon play-video">
+								<i class="fa  fa-play-circle"></i>
+								<div class="background"></div>
+							</div>
+							<img  src="https://img.123clouds.ru/2017/03/07/poster/fca4f4c9b4a11b66463a1269101afd0a-highway-to-havasu.jpg" alt="img23"/>
+							<div class="info">
+								<div class="main-title">John Wick 2</div>
+								<div class="hidden-info">
+									<div class="imdb"><i class="fa fa-star" aria-hidden="true"></i> 7.4</div>
+									<div class="year">2017</div>
+									<div class="genre">Action , Comedy, Triller</div>
+
+								</div>
+								<a href="movie.html">View more</a>
+							</div>			
+						</div>
+		    	</div>
+		    	<div class="col-md-2 col-xs-12">
+		    			<div class="hover">
+							<span class="quality">CAM</span>
+							<div class="play-icon play-video">
+								<i class="fa  fa-play-circle"></i>
+								<div class="background"></div>
+							</div>
+							<img  src="https://img.123clouds.ru/2017/03/07/poster/485f5b302425d20940d200a71cf5c845-ghosts-of-darkness.jpg" alt="img23"/>
+							<div class="info">
+								<div class="main-title">John Wick 2</div>
+								<div class="hidden-info">
+									<div class="imdb"><i class="fa fa-star" aria-hidden="true"></i> 7.4</div>
+									<div class="year">2017</div>
+									<div class="genre">Action , Comedy, Triller</div>
+
+								</div>
+								<a href="movie.html">View more</a>
+							</div>			
+						</div>
+		    	</div>
+		    	<div class="col-md-2 col-xs-12">
+		    			<div class="hover">
+							<span class="quality">CAM</span>
+							<div class="play-icon play-video">
+								<i class="fa  fa-play-circle"></i>
+								<div class="background"></div>
+							</div>
+							<img  src="https://img.123clouds.ru/2017/03/07/poster/c772a97f246343a22ca66d60451708d2-galaxy-of-horrors.jpg" alt="img23"/>
+							<div class="info">
+								<div class="main-title">John Wick 2</div>
+								<div class="hidden-info">
+									<div class="imdb"><i class="fa fa-star" aria-hidden="true"></i> 7.4</div>
+									<div class="year">2017</div>
+									<div class="genre">Action , Comedy, Triller</div>
+
+								</div>
+								<a href="movie.html">View more</a>
+							</div>			
+						</div>
+		    	</div>
+		    	<div class="col-md-2 col-xs-12">
+		    			<div class="hover">
+							<span class="quality">CAM</span>
+							<div class="play-icon play-video">
+								<i class="fa  fa-play-circle"></i>
+								<div class="background"></div>
+							</div>
+							<img  src="https://img.123clouds.ru/2017/03/08/poster/7c6e8510f74c0f357336a8da42e723ca-door-to-the-other-side.jpg" alt="img23"/>
+							<div class="info">
+								<div class="main-title">John Wick 2</div>
+								<div class="hidden-info">
+									<div class="imdb"><i class="fa fa-star" aria-hidden="true"></i> 7.4</div>
+									<div class="year">2017</div>
+									<div class="genre">Action , Comedy, Triller</div>
+
+								</div>
+								<a href="movie.html">View more</a>
+							</div>			
+						</div>
+		    	</div>
+		    	<div class="col-md-2 col-xs-12">
+		    			<div class="hover">
+							<span class="quality">CAM</span>
+							<div class="play-icon play-video">
+								<i class="fa  fa-play-circle"></i>
+								<div class="background"></div>
+							</div>
+							<img  src="https://img.123clouds.ru/2017/03/07/poster/ff9dd0fd8917d4a080eb27feb30f0571-devil-in-the-dark.jpg" alt="img23"/>
+							<div class="info">
+								<div class="main-title">John Wick 2</div>
+								<div class="hidden-info">
+									<div class="imdb"><i class="fa fa-star" aria-hidden="true"></i> 7.4</div>
+									<div class="year">2017</div>
+									<div class="genre">Action , Comedy, Triller</div>
+
+								</div>
+								<a href="movie.html">View more</a>
+							</div>			
+						</div>
+		    	</div>
+		    	<div class="col-md-2 col-xs-12">
+		    			<div class="hover">
+							<span class="quality">CAM</span>
+							<div class="play-icon play-video">
+								<i class="fa  fa-play-circle"></i>
+								<div class="background"></div>
+							</div>
+							<img  src="https://img.123clouds.ru/2017/03/07/poster/c596d70fda0707ea9bf1d1bbfb1bac77-cut-to-the-chase.jpg" alt="img23"/>
+							<div class="info">
+								<div class="main-title">John Wick 2</div>
+								<div class="hidden-info">
+									<div class="imdb"><i class="fa fa-star" aria-hidden="true"></i> 7.4</div>
+									<div class="year">2017</div>
+									<div class="genre">Action , Comedy, Triller</div>
+
+								</div>
+								<a href="movie.html">View more</a>
+							</div>			
+						</div>
+		    	</div>
+		    	<div class="col-md-2 col-xs-12">
+		    			<div class="hover">
+							<span class="quality">CAM</span>
+							<div class="play-icon play-video">
+								<i class="fa  fa-play-circle"></i>
+								<div class="background"></div>
+							</div>
+							<img  src="https://img.123clouds.ru/2017/03/07/poster/da4ed642e62cea90596a852c23b47f03-bunyan-and-babe.jpg" alt="img23"/>
+							<div class="info">
+								<div class="main-title">John Wick 2</div>
+								<div class="hidden-info">
+									<div class="imdb"><i class="fa fa-star" aria-hidden="true"></i> 7.4</div>
+									<div class="year">2017</div>
+									<div class="genre">Action , Comedy, Triller</div>
+
+								</div>
+								<a href="movie.html">View more</a>
+							</div>			
+						</div>
+		    	</div>
+		    	<div class="col-md-2 col-xs-12">
+		    			<div class="hover">
+							<span class="quality">CAM</span>
+							<div class="play-icon play-video">
+								<i class="fa  fa-play-circle"></i>
+								<div class="background"></div>
+							</div>
+							<img  src="https://img.123clouds.ru/2017/03/07/poster/d14a37a751e23f134efdec66d5220367-the-bye-bye-man.jpg" alt="img23"/>
+							<div class="info">
+								<div class="main-title">John Wick 2</div>
+								<div class="hidden-info">
+									<div class="imdb"><i class="fa fa-star" aria-hidden="true"></i> 7.4</div>
+									<div class="year">2017</div>
+									<div class="genre">Action , Comedy, Triller</div>
+
+								</div>
+								<a href="movie.html">View more</a>
+							</div>			
+						</div>
+		    	</div>
+		    	<div class="col-md-2 col-xs-12">
+		    			<div class="hover">
+							<span class="quality">CAM</span>
+							<div class="play-icon play-video">
+								<i class="fa  fa-play-circle"></i>
+								<div class="background"></div>
+							</div>
+							<img  src="https://img.123clouds.ru/2017/03/07/poster/2cedfdae9c3a868130fcc2a2640924cd-get-out.jpg" alt="img23"/>
+							<div class="info">
+								<div class="main-title">John Wick 2</div>
+								<div class="hidden-info">
+									<div class="imdb"><i class="fa fa-star" aria-hidden="true"></i> 7.4</div>
+									<div class="year">2017</div>
+									<div class="genre">Action , Comedy, Triller</div>
+
+								</div>
+								<a href="movie.html">View more</a>
+							</div>			
+						</div>
+		    	</div>
+		    	<div class="col-md-2 col-xs-12">
+		    			<div class="hover">
+							<span class="quality">CAM</span>
+							<div class="play-icon play-video">
+								<i class="fa  fa-play-circle"></i>
+								<div class="background"></div>
+							</div>
+							<img  src="https://img.123clouds.ru/2017/03/07/poster/1fbd314e49cb60f8fb5d3c2dd5963c2c-the-space-between-us.jpg" alt="img23"/>
+							<div class="info">
+								<div class="main-title">John Wick 2</div>
+								<div class="hidden-info">
+									<div class="imdb"><i class="fa fa-star" aria-hidden="true"></i> 7.4</div>
+									<div class="year">2017</div>
+									<div class="genre">Action , Comedy, Triller</div>
+
+								</div>
+								<a href="movie.html">View more</a>
+							</div>			
+						</div>
+		    	</div>
+		    	
+    		</div>
+    	</div>
+
+    </div><!-- /.container -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="modul">
+						<div class="about">
+							<div class="footer-logo">
+								<a href="#">
+									<img width="155" height="51" src="img/icon_white.png" class="attachment-full size-full" alt="">
+								</a>
+							</div>
+							<div class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</div>
+						</div>
+						
+					</div>
+					<div class="modul">
+						<div class="input"><input type="text" placeholder="Subscribe"><input class="background-color" type="submit" value="Subscribe"></div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="amy-widget widget_nav_menu">
+						<div class="modul-title">
+							<h4 class="text-color border-color">Custom Services</h4>
+						</div>
+						<div class="content">
+							<ul class="footer-menu">
+								<li class=""><a href="#">Help & Contact</a></li>
+								<li class=""><a href="#">Return Policy</a></li>
+								<li class="menu-item"><a href="#">Feed Back</a></li>
+								<li class="menu-item"><a href="#">Careers</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="amy-widget widget_nav_menu">
+						<div class="modul-title">
+							<h4 class="text-color border-color">TV Series</h4>
+						</div>
+						<div class="content">
+							<ul class="footer-menu">
+								<li class=""><a href="#">Action</a></li>
+								<li class=""><a href="#">Comedy</a></li>
+								<li class="menu-item"><a href="#">Horror</a></li>
+								<li class="menu-item"><a href="#">Thriller</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="amy-widget widget_nav_menu">
+						<div class="modul-title">
+							<h4 class="text-color border-color">Movies</h4>
+						</div>
+						<div class="content">
+							<ul class="footer-menu">
+								<li class=""><a href="#">Action</a></li>
+								<li class=""><a href="#">Comedy</a></li>
+								<li class="menu-item"><a href="#">Horror</a></li>
+								<li class="menu-item"><a href="#">Thriller</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</footer>
+	<div class="copyright">
+		<div class="container">©copyright 2017 Subsmovies</div>
+	</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
