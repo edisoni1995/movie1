@@ -41,7 +41,7 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="#"><img class="img-responsive" src="img/icon.png" alt=""></a>
+	      <a class="navbar-brand" href="#"><img class="img-responsive" src="img/logo.png" alt=""></a>
 	     
 	      
 	    </div>
@@ -93,7 +93,35 @@
 	    </form>
 	      <ul class="nav navbar-nav navbar-right">
 	        <li class="active"><a href="#" class="text-hover-color">Home</a></li>
-	        <li><a href="#" class="text-hover-color">Genre</a></li>
+	        <li>
+	        	<a href="#" class="text-hover-color">Genre</a>
+			    <div class="dropdown suggest menu">
+			      	<ul class="border-color">
+			      		<div class="col-md-4">
+			      			<li><a href="#" class="background-hover-color">Action</a></li>
+			      			<li><a href="#" class="background-hover-color">Adventure</a></li>
+			      			<li><a href="#" class="background-hover-color">Action</a></li>
+			      			<li><a href="#" class="background-hover-color">Adventure</a></li>
+			      			<li><a href="#" class="background-hover-color">Action</a></li>
+			      		</div>
+			      		<div class="col-md-4">
+			      			<li><a href="#" class="background-hover-color">Action</a></li>
+			      			<li><a href="#" class="background-hover-color">Adventure</a></li>
+			      			<li><a href="#" class="background-hover-color">Action</a></li>
+			      			<li><a href="#" class="background-hover-color">Adventure</a></li>
+			      			<li><a href="#" class="background-hover-color">Action</a></li>
+			      		</div>
+			      		<div class="col-md-4">
+			      			<li><a href="#" class="background-hover-color">Action</a></li>
+			      			<li><a href="#" class="background-hover-color">Adventure</a></li>
+			      			<li><a href="#" class="background-hover-color">Action</a></li>
+			      			<li><a href="#" class="background-hover-color">Adventure</a></li>
+			      			<li><a href="#" class="background-hover-color">Action</a></li>
+			      		</div>
+			      		
+			      	</ul>
+			    </div>
+	        </li>
 	        <li><a href="#" class="text-hover-color">Country</a></li>
 	        <li><a href="#" class="text-hover-color">Top IMDb</a></li>
 	        <li><a href="#" class="text-hover-color">Tv series</a></li>
@@ -458,6 +486,17 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script>
+    	$(document).ready(function(){
+    		$('.nav > li > a').mouseover(function(){
+    			$(this).next().fadeIn();
+    		});
+
+    		$('.nav > li').mouseleave(function(){
+    			$(this).find('.menu').hide();
+    		});
+    	});
+    </script>
   </body>
 </html>
 
